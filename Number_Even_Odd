@@ -1,0 +1,17 @@
+// Given Num even or odd
+
+#include <iostream>
+using namespace std;
+int main() {
+
+	int num;
+	cout << "enter the number\n";
+	cin >> num;
+	if (num % 2 == 0)
+		cout << "given no is the even number\n";
+	else
+		cout << "odd number\n";
+	getchar();
+	getchar();
+	return 0;
+}
